@@ -1,11 +1,11 @@
 package zerobase.weather;
 
-import domain.Memo;
+import zerobase.weather.domain.Memo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import repository.JdbcMemoRepository;
+import zerobase.weather.repository.JdbcMemoRepository;
 
 import java.util.List;
 import java.util.Optional;
